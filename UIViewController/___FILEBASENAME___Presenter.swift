@@ -12,7 +12,7 @@ final class ___VARIABLE_sceneName___Presenter {
     
     var model: ___VARIABLE_sceneName___Model?
     
-    init(view: ___VARIABLE_sceneName___ViewController) {
+    init(view: ___VARIABLE_sceneName___ViewProtocol) {
         self.view = view
     }
     
